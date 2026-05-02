@@ -1,0 +1,11 @@
+.DS_Store
+.venv*/
+build/
+
+# Core ML export intermediates. The app bundles the compiled raw model below.
+src/Models/*.mlmodel
+src/Models/*.mlpackage/
+src/Models/ssd_mobilenet_v2_320x320.mlmodelc/
+/app-store
+docs/app-store-submission.md
+tools/generate_app_store_assets.swift

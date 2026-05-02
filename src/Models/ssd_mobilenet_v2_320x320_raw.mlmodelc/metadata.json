@@ -1,0 +1,97 @@
+[
+  {
+    "metadataOutputVersion" : "3.0",
+    "shortDescription" : "SSD MobileNet V2 raw object detector trained on COCO 2017",
+    "outputSchema" : [
+      {
+        "hasShapeFlexibility" : "0",
+        "isOptional" : "0",
+        "dataType" : "Float32",
+        "formattedType" : "MultiArray (Float32)",
+        "shortDescription" : "",
+        "shape" : "[]",
+        "name" : "raw_detection_boxes",
+        "type" : "MultiArray"
+      },
+      {
+        "hasShapeFlexibility" : "0",
+        "isOptional" : "0",
+        "dataType" : "Float32",
+        "formattedType" : "MultiArray (Float32)",
+        "shortDescription" : "",
+        "shape" : "[]",
+        "name" : "raw_detection_scores",
+        "type" : "MultiArray"
+      }
+    ],
+    "storagePrecision" : "Float32",
+    "modelParameters" : [
+
+    ],
+    "author" : "TensorFlow Model Garden",
+    "specificationVersion" : 4,
+    "license" : "Apache-2.0",
+    "computePrecision" : "Float16",
+    "stateSchema" : [
+
+    ],
+    "isUpdatable" : "0",
+    "availability" : {
+      "macOS" : "10.15",
+      "tvOS" : "13.0",
+      "visionOS" : "1.0",
+      "watchOS" : "6.0",
+      "iOS" : "13.0",
+      "macCatalyst" : "13.0"
+    },
+    "modelType" : {
+      "name" : "MLModelType_neuralNetwork"
+    },
+    "inputSchema" : [
+      {
+        "height" : "320",
+        "colorspace" : "RGB",
+        "isOptional" : "0",
+        "width" : "320",
+        "isColor" : "1",
+        "formattedType" : "Image (Color 320 × 320)",
+        "hasSizeFlexibility" : "0",
+        "type" : "Image",
+        "shortDescription" : "",
+        "name" : "input_tensor"
+      }
+    ],
+    "userDefinedMetadata" : {
+      "source" : "https:\/\/storage.googleapis.com\/download.tensorflow.org\/models\/object_detection\/tf2\/20200711\/ssd_mobilenet_v2_320x320_coco17_tpu-8.tar.gz",
+      "com.github.apple.coremltools.source" : "tensorflow==2.12.0",
+      "com.github.apple.coremltools.version" : "7.2",
+      "classes" : "COCO 2017",
+      "task" : "detect",
+      "outputs" : "raw_detection_boxes,raw_detection_scores",
+      "input_size" : "320x320"
+    },
+    "generatedClassName" : "ssd_mobilenet_v2_320x320_raw",
+    "neuralNetworkLayerTypeHistogram" : {
+      "ExpandDims" : 1,
+      "Concat" : 1,
+      "UnaryThreshold" : 43,
+      "ResizeBilinear" : 1,
+      "Convolution" : 72,
+      "Transpose" : 16,
+      "ReshapeStatic" : 8,
+      "LoadConstantND" : 7,
+      "ActivationSigmoid" : 1,
+      "RankPreservingReshape" : 6,
+      "Stack" : 1,
+      "SplitND" : 1,
+      "Squeeze" : 6,
+      "Multiply" : 9,
+      "Add" : 17,
+      "ConcatND" : 1,
+      "ActivationLinear" : 90,
+      "ActivationReLU" : 43,
+      "UnaryExp" : 2
+    },
+    "method" : "predict"
+  }
+]

@@ -1,0 +1,2013 @@
+{
+  "layer_shapes" : {
+    "StatefulPartitionedCall\/ssd_mobile_net_v2keras_feature_extractor\/functional_1\/block_5_depthwise_relu\/Relu6__relu6_neg__" : {
+      "k" : 192,
+      "w" : 38,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 38
+    },
+    "StatefulPartitionedCall\/ssd_mobile_net_v2keras_feature_extractor\/functional_1\/block_6_depthwise_relu\/Relu6__relu6_neg__" : {
+      "k" : 192,
+      "w" : 19,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 19
+    },
+    "StatefulPartitionedCall\/ssd_mobile_net_v2keras_feature_extractor\/functional_1\/block_7_depthwise_relu\/Relu6__relu6_neg__" : {
+      "k" : 384,
+      "w" : 19,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 19
+    },
+    "StatefulPartitionedCall\/ssd_mobile_net_v2keras_feature_extractor\/functional_1\/block_8_depthwise_relu\/Relu6__relu6_neg__" : {
+      "k" : 384,
+      "w" : 19,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 19
+    },
+    "StatefulPartitionedCall\/BoxPredictor\/ConvolutionalClassHead_0\/Reshape" : {
+      "k" : 1,
+      "w" : 91,
+      "n" : 1,
+      "_rank" : 3,
+      "h" : 1083
+    },
+    "StatefulPartitionedCall\/ssd_mobile_net_v2keras_feature_extractor\/functional_1\/block_9_depthwise_relu\/Relu6__relu6_neg__" : {
+      "k" : 384,
+      "w" : 19,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 19
+    },
+    "StatefulPartitionedCall\/BoxPredictor\/ConvolutionalClassHead_1\/Reshape" : {
+      "k" : 1,
+      "w" : 91,
+      "n" : 1,
+      "_rank" : 3,
+      "h" : 600
+    },
+    "StatefulPartitionedCall\/ssd_mobile_net_v2keras_feature_extractor\/functional_1\/out_relu\/Relu6__relu6_relu__" : {
+      "k" : 1280,
+      "w" : 10,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 10
+    },
+    "conv_4" : {
+      "k" : 24,
+      "w" : 5,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 5
+    },
+    "StatefulPartitionedCall\/Postprocessor\/Decode\/truediv_5" : {
+      "k" : 1,
+      "w" : 1917,
+      "n" : 1,
+      "_rank" : 1,
+      "h" : 1
+    },
+    "StatefulPartitionedCall\/Postprocessor\/Decode\/add_2" : {
+      "k" : 1,
+      "w" : 1917,
+      "n" : 1,
+      "_rank" : 1,
+      "h" : 1
+    },
+    "StatefulPartitionedCall\/ssd_mobile_net_v2keras_feature_extractor\/functional_1\/block_10_depthwise_relu\/Relu6__relu6_neg__" : {
+      "k" : 384,
+      "w" : 19,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 19
+    },
+    "StatefulPartitionedCall\/ssd_mobile_net_v2keras_feature_extractor\/functional_1\/block_11_depthwise_relu\/Relu6__relu6_neg__" : {
+      "k" : 576,
+      "w" : 19,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 19
+    },
+    "StatefulPartitionedCall\/ssd_mobile_net_v2keras_feature_extractor\/functional_1\/block_12_depthwise_relu\/Relu6__relu6_neg__" : {
+      "k" : 576,
+      "w" : 19,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 19
+    },
+    "StatefulPartitionedCall\/ssd_mobile_net_v2keras_feature_extractor\/functional_1\/block_13_depthwise_relu\/Relu6__relu6_neg__" : {
+      "k" : 576,
+      "w" : 10,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 10
+    },
+    "StatefulPartitionedCall\/ssd_mobile_net_v2keras_feature_extractor\/functional_1\/block_14_depthwise_relu\/Relu6__relu6_neg__" : {
+      "k" : 960,
+      "w" : 10,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 10
+    },
+    "StatefulPartitionedCall\/ssd_mobile_net_v2keras_feature_extractor\/functional_1\/block_15_depthwise_relu\/Relu6__relu6_neg__" : {
+      "k" : 960,
+      "w" : 10,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 10
+    },
+    "StatefulPartitionedCall\/ssd_mobile_net_v2keras_feature_extractor\/functional_1\/block_16_depthwise_relu\/Relu6__relu6_neg__" : {
+      "k" : 960,
+      "w" : 10,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 10
+    },
+    "StatefulPartitionedCall\/concat_1" : {
+      "k" : 1,
+      "w" : 91,
+      "n" : 1,
+      "_rank" : 3,
+      "h" : 1917
+    },
+    "StatefulPartitionedCall\/ssd_mobile_net_v2keras_feature_extractor\/functional_1\/block_1_expand_relu\/Relu6__relu6_threshold6__" : {
+      "k" : 96,
+      "w" : 150,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 150
+    },
+    "StatefulPartitionedCall\/ssd_mobile_net_v2keras_feature_extractor\/functional_1\/block_2_expand_relu\/Relu6__relu6_threshold6__" : {
+      "k" : 144,
+      "w" : 75,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 75
+    },
+    "StatefulPartitionedCall\/ssd_mobile_net_v2keras_feature_extractor\/functional_1\/block_3_expand_relu\/Relu6__relu6_threshold6__" : {
+      "k" : 144,
+      "w" : 75,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 75
+    },
+    "StatefulPartitionedCall\/ssd_mobile_net_v2keras_feature_extractor\/functional_1\/block_4_expand_relu\/Relu6__relu6_threshold6__" : {
+      "k" : 192,
+      "w" : 38,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 38
+    },
+    "StatefulPartitionedCall\/ssd_mobile_net_v2keras_feature_extractor\/functional_1\/block_5_expand_relu\/Relu6__relu6_threshold6__" : {
+      "k" : 192,
+      "w" : 38,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 38
+    },
+    "StatefulPartitionedCall\/ssd_mobile_net_v2keras_feature_extractor\/functional_1\/block_6_expand_relu\/Relu6__relu6_threshold6__" : {
+      "k" : 192,
+      "w" : 38,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 38
+    },
+    "StatefulPartitionedCall\/ssd_mobile_net_v2keras_feature_extractor\/functional_1\/block_7_expand_relu\/Relu6__relu6_threshold6__" : {
+      "k" : 384,
+      "w" : 19,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 19
+    },
+    "StatefulPartitionedCall\/ssd_mobile_net_v2keras_feature_extractor\/functional_1\/block_8_expand_relu\/Relu6__relu6_threshold6__" : {
+      "k" : 384,
+      "w" : 19,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 19
+    },
+    "StatefulPartitionedCall\/ssd_mobile_net_v2keras_feature_extractor\/functional_1\/block_9_expand_relu\/Relu6__relu6_threshold6__" : {
+      "k" : 384,
+      "w" : 19,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 19
+    },
+    "StatefulPartitionedCall\/ssd_mobile_net_v2keras_feature_extractor\/functional_1\/block_1_depthwise_relu\/Relu6" : {
+      "k" : 96,
+      "w" : 75,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 75
+    },
+    "StatefulPartitionedCall\/ssd_mobile_net_v2keras_feature_extractor\/FeatureMaps\/layer_19_2_Conv2d_4_3x3_s2_256\/Relu6" : {
+      "k" : 256,
+      "w" : 2,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 2
+    },
+    "StatefulPartitionedCall\/Squeeze" : {
+      "k" : 1,
+      "w" : 4,
+      "n" : 1,
+      "_rank" : 3,
+      "h" : 1917
+    },
+    "StatefulPartitionedCall\/ssd_mobile_net_v2keras_feature_extractor\/FeatureMaps\/layer_19_1_Conv2d_2_1x1_256\/Relu6__relu6_neg__" : {
+      "k" : 256,
+      "w" : 10,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 10
+    },
+    "StatefulPartitionedCall\/ssd_mobile_net_v2keras_feature_extractor\/FeatureMaps\/layer_19_2_Conv2d_2_3x3_s2_512\/Relu6__relu6_neg__" : {
+      "k" : 512,
+      "w" : 5,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 5
+    },
+    "StatefulPartitionedCall\/ssd_mobile_net_v2keras_feature_extractor\/functional_1\/block_1_depthwise_relu\/Relu6__relu6_threshold6__" : {
+      "k" : 96,
+      "w" : 75,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 75
+    },
+    "StatefulPartitionedCall\/ssd_mobile_net_v2keras_feature_extractor\/functional_1\/block_2_depthwise_relu\/Relu6__relu6_threshold6__" : {
+      "k" : 144,
+      "w" : 75,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 75
+    },
+    "StatefulPartitionedCall\/ssd_mobile_net_v2keras_feature_extractor\/functional_1\/block_3_depthwise_relu\/Relu6__relu6_threshold6__" : {
+      "k" : 144,
+      "w" : 38,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 38
+    },
+    "StatefulPartitionedCall\/ssd_mobile_net_v2keras_feature_extractor\/functional_1\/block_4_depthwise_relu\/Relu6__relu6_threshold6__" : {
+      "k" : 192,
+      "w" : 38,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 38
+    },
+    "StatefulPartitionedCall\/ssd_mobile_net_v2keras_feature_extractor\/functional_1\/block_5_depthwise_relu\/Relu6__relu6_threshold6__" : {
+      "k" : 192,
+      "w" : 38,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 38
+    },
+    "StatefulPartitionedCall\/ssd_mobile_net_v2keras_feature_extractor\/functional_1\/block_6_depthwise_relu\/Relu6__relu6_threshold6__" : {
+      "k" : 192,
+      "w" : 19,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 19
+    },
+    "StatefulPartitionedCall\/ssd_mobile_net_v2keras_feature_extractor\/functional_1\/block_7_depthwise_relu\/Relu6__relu6_threshold6__" : {
+      "k" : 384,
+      "w" : 19,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 19
+    },
+    "StatefulPartitionedCall\/ssd_mobile_net_v2keras_feature_extractor\/functional_1\/block_8_depthwise_relu\/Relu6__relu6_threshold6__" : {
+      "k" : 384,
+      "w" : 19,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 19
+    },
+    "StatefulPartitionedCall\/ssd_mobile_net_v2keras_feature_extractor\/functional_1\/block_9_depthwise_relu\/Relu6__relu6_threshold6__" : {
+      "k" : 384,
+      "w" : 19,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 19
+    },
+    "StatefulPartitionedCall\/Postprocessor\/Decode\/sub_1" : {
+      "k" : 1,
+      "w" : 1917,
+      "n" : 1,
+      "_rank" : 1,
+      "h" : 1
+    },
+    "StatefulPartitionedCall\/Postprocessor\/Decode\/mul_2" : {
+      "k" : 1,
+      "w" : 1917,
+      "n" : 1,
+      "_rank" : 1,
+      "h" : 1
+    },
+    "conv_11" : {
+      "k" : 546,
+      "w" : 1,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 1
+    },
+    "StatefulPartitionedCall\/ssd_mobile_net_v2keras_feature_extractor\/functional_1\/block_7_add\/add" : {
+      "k" : 64,
+      "w" : 19,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 19
+    },
+    "StatefulPartitionedCall\/ssd_mobile_net_v2keras_feature_extractor\/functional_1\/block_12_depthwise_relu\/Relu6" : {
+      "k" : 576,
+      "w" : 19,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 19
+    },
+    "StatefulPartitionedCall\/ssd_mobile_net_v2keras_feature_extractor\/functional_1\/block_2_add\/add" : {
+      "k" : 24,
+      "w" : 75,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 75
+    },
+    "StatefulPartitionedCall\/Preprocessor\/mul" : {
+      "k" : 320,
+      "w" : 3,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 320
+    },
+    "StatefulPartitionedCall\/ssd_mobile_net_v2keras_feature_extractor\/functional_1\/block_7_depthwise_relu\/Relu6" : {
+      "k" : 384,
+      "w" : 19,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 19
+    },
+    "StatefulPartitionedCall\/ssd_mobile_net_v2keras_feature_extractor\/functional_1\/block_16_expand_relu\/Relu6__relu6_neg__" : {
+      "k" : 960,
+      "w" : 10,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 10
+    },
+    "conv_5" : {
+      "k" : 546,
+      "w" : 5,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 5
+    },
+    "StatefulPartitionedCall\/Postprocessor\/Decode\/unstack:0" : {
+      "k" : 1,
+      "w" : 1917,
+      "n" : 1,
+      "_rank" : 1,
+      "h" : 1
+    },
+    "StatefulPartitionedCall\/Postprocessor\/Decode\/get_center_coordinates_and_sizes\/add_1" : {
+      "k" : 1,
+      "w" : 1917,
+      "n" : 1,
+      "_rank" : 1,
+      "h" : 1
+    },
+    "StatefulPartitionedCall\/Postprocessor\/Decode\/add" : {
+      "k" : 1,
+      "w" : 1917,
+      "n" : 1,
+      "_rank" : 1,
+      "h" : 1
+    },
+    "StatefulPartitionedCall\/ssd_mobile_net_v2keras_feature_extractor\/functional_1\/block_7_expand_relu\/Relu6" : {
+      "k" : 384,
+      "w" : 19,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 19
+    },
+    "StatefulPartitionedCall\/ssd_mobile_net_v2keras_feature_extractor\/functional_1\/block_11_expand_relu\/Relu6__relu6_neg__" : {
+      "k" : 576,
+      "w" : 19,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 19
+    },
+    "StatefulPartitionedCall\/Postprocessor\/Reshape_2" : {
+      "k" : 1,
+      "w" : 4,
+      "n" : 1,
+      "_rank" : 3,
+      "h" : 1917
+    },
+    "StatefulPartitionedCall\/ssd_mobile_net_v2keras_feature_extractor\/FeatureMaps\/layer_19_1_Conv2d_4_1x1_128\/Relu6" : {
+      "k" : 128,
+      "w" : 3,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 3
+    },
+    "StatefulPartitionedCall\/ssd_mobile_net_v2keras_feature_extractor\/FeatureMaps\/layer_19_1_Conv2d_5_1x1_64\/Relu6" : {
+      "k" : 64,
+      "w" : 2,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 2
+    },
+    "StatefulPartitionedCall\/ssd_mobile_net_v2keras_feature_extractor\/FeatureMaps\/layer_19_1_Conv2d_3_1x1_128\/Relu6__relu6_relu__" : {
+      "k" : 128,
+      "w" : 5,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 5
+    },
+    "StatefulPartitionedCall\/Postprocessor\/Decode\/unstack:1" : {
+      "k" : 1,
+      "w" : 1917,
+      "n" : 1,
+      "_rank" : 1,
+      "h" : 1
+    },
+    "StatefulPartitionedCall\/ssd_mobile_net_v2keras_feature_extractor\/FeatureMaps\/layer_19_2_Conv2d_2_3x3_s2_512\/Relu6__relu6_relu__" : {
+      "k" : 512,
+      "w" : 5,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 5
+    },
+    "StatefulPartitionedCall\/ssd_mobile_net_v2keras_feature_extractor\/functional_1\/block_8_add\/add" : {
+      "k" : 64,
+      "w" : 19,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 19
+    },
+    "StatefulPartitionedCall\/ssd_mobile_net_v2keras_feature_extractor\/FeatureMaps\/layer_19_2_Conv2d_2_3x3_s2_512\/Relu6__relu6_threshold6__" : {
+      "k" : 512,
+      "w" : 5,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 5
+    },
+    "StatefulPartitionedCall\/ssd_mobile_net_v2keras_feature_extractor\/functional_1\/block_6_expand_relu\/Relu6" : {
+      "k" : 192,
+      "w" : 38,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 38
+    },
+    "StatefulPartitionedCall\/ssd_mobile_net_v2keras_feature_extractor\/functional_1\/block_13_project_BN\/FusedBatchNormV3_nchw" : {
+      "k" : 160,
+      "w" : 10,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 10
+    },
+    "StatefulPartitionedCall\/ssd_mobile_net_v2keras_feature_extractor\/functional_1\/block_10_project_BN\/FusedBatchNormV3_nchw" : {
+      "k" : 96,
+      "w" : 19,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 19
+    },
+    "StatefulPartitionedCall\/ssd_mobile_net_v2keras_feature_extractor\/functional_1\/block_11_project_BN\/FusedBatchNormV3_nchw" : {
+      "k" : 96,
+      "w" : 19,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 19
+    },
+    "StatefulPartitionedCall\/ssd_mobile_net_v2keras_feature_extractor\/functional_1\/block_12_project_BN\/FusedBatchNormV3_nchw" : {
+      "k" : 96,
+      "w" : 19,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 19
+    },
+    "StatefulPartitionedCall\/ssd_mobile_net_v2keras_feature_extractor\/functional_1\/block_14_project_BN\/FusedBatchNormV3_nchw" : {
+      "k" : 160,
+      "w" : 10,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 10
+    },
+    "StatefulPartitionedCall\/ssd_mobile_net_v2keras_feature_extractor\/functional_1\/block_15_project_BN\/FusedBatchNormV3_nchw" : {
+      "k" : 160,
+      "w" : 10,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 10
+    },
+    "StatefulPartitionedCall\/ssd_mobile_net_v2keras_feature_extractor\/functional_1\/block_16_project_BN\/FusedBatchNormV3_nchw" : {
+      "k" : 320,
+      "w" : 10,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 10
+    },
+    "conv_6" : {
+      "k" : 24,
+      "w" : 3,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 3
+    },
+    "StatefulPartitionedCall\/ssd_mobile_net_v2keras_feature_extractor\/functional_1\/block_10_expand_relu\/Relu6__relu6_relu__" : {
+      "k" : 384,
+      "w" : 19,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 19
+    },
+    "StatefulPartitionedCall\/BoxPredictor\/ConvolutionalBoxHead_0\/Reshape" : {
+      "k" : 1083,
+      "w" : 4,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 1
+    },
+    "StatefulPartitionedCall\/ssd_mobile_net_v2keras_feature_extractor\/functional_1\/block_11_expand_relu\/Relu6__relu6_relu__" : {
+      "k" : 576,
+      "w" : 19,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 19
+    },
+    "StatefulPartitionedCall\/ssd_mobile_net_v2keras_feature_extractor\/functional_1\/block_12_expand_relu\/Relu6__relu6_relu__" : {
+      "k" : 576,
+      "w" : 19,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 19
+    },
+    "StatefulPartitionedCall\/ssd_mobile_net_v2keras_feature_extractor\/functional_1\/block_10_depthwise_relu\/Relu6" : {
+      "k" : 384,
+      "w" : 19,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 19
+    },
+    "StatefulPartitionedCall\/ssd_mobile_net_v2keras_feature_extractor\/functional_1\/block_13_expand_relu\/Relu6__relu6_relu__" : {
+      "k" : 576,
+      "w" : 19,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 19
+    },
+    "StatefulPartitionedCall\/ssd_mobile_net_v2keras_feature_extractor\/functional_1\/block_14_expand_relu\/Relu6__relu6_relu__" : {
+      "k" : 960,
+      "w" : 10,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 10
+    },
+    "StatefulPartitionedCall\/ssd_mobile_net_v2keras_feature_extractor\/functional_1\/block_15_expand_relu\/Relu6__relu6_relu__" : {
+      "k" : 960,
+      "w" : 10,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 10
+    },
+    "StatefulPartitionedCall\/ssd_mobile_net_v2keras_feature_extractor\/functional_1\/block_16_expand_relu\/Relu6__relu6_relu__" : {
+      "k" : 960,
+      "w" : 10,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 10
+    },
+    "StatefulPartitionedCall\/ssd_mobile_net_v2keras_feature_extractor\/FeatureMaps\/layer_19_2_Conv2d_3_3x3_s2_256\/Relu6__relu6_threshold6__" : {
+      "k" : 256,
+      "w" : 3,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 3
+    },
+    "StatefulPartitionedCall\/ssd_mobile_net_v2keras_feature_extractor\/FeatureMaps\/layer_19_2_Conv2d_4_3x3_s2_256\/Relu6__relu6_threshold6__" : {
+      "k" : 256,
+      "w" : 2,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 2
+    },
+    "StatefulPartitionedCall\/Postprocessor\/Reshape_1" : {
+      "k" : 1,
+      "w" : 4,
+      "n" : 1,
+      "_rank" : 2,
+      "h" : 1917
+    },
+    "StatefulPartitionedCall\/ssd_mobile_net_v2keras_feature_extractor\/functional_1\/expanded_conv_depthwise_relu\/Relu6__relu6_relu__" : {
+      "k" : 32,
+      "w" : 150,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 150
+    },
+    "StatefulPartitionedCall\/ssd_mobile_net_v2keras_feature_extractor\/FeatureMaps\/layer_19_1_Conv2d_4_1x1_128\/Relu6__relu6_neg__" : {
+      "k" : 128,
+      "w" : 3,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 3
+    },
+    "StatefulPartitionedCall\/ssd_mobile_net_v2keras_feature_extractor\/FeatureMaps\/layer_19_1_Conv2d_5_1x1_64\/Relu6__relu6_relu__" : {
+      "k" : 64,
+      "w" : 2,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 2
+    },
+    "StatefulPartitionedCall\/ssd_mobile_net_v2keras_feature_extractor\/FeatureMaps\/layer_19_2_Conv2d_3_3x3_s2_256\/Relu6__relu6_neg__" : {
+      "k" : 256,
+      "w" : 3,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 3
+    },
+    "StatefulPartitionedCall\/Postprocessor\/Decode\/sub" : {
+      "k" : 1,
+      "w" : 1917,
+      "n" : 1,
+      "_rank" : 1,
+      "h" : 1
+    },
+    "StatefulPartitionedCall\/ssd_mobile_net_v2keras_feature_extractor\/functional_1\/expanded_conv_project_BN\/FusedBatchNormV3_nchw" : {
+      "k" : 16,
+      "w" : 150,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 150
+    },
+    "StatefulPartitionedCall\/Postprocessor\/Decode\/unstack:2" : {
+      "k" : 1,
+      "w" : 1917,
+      "n" : 1,
+      "_rank" : 1,
+      "h" : 1
+    },
+    "StatefulPartitionedCall\/Postprocessor\/Decode\/get_center_coordinates_and_sizes\/sub_1" : {
+      "k" : 1,
+      "w" : 1917,
+      "n" : 1,
+      "_rank" : 1,
+      "h" : 1
+    },
+    "StatefulPartitionedCall\/ssd_mobile_net_v2keras_feature_extractor\/functional_1\/block_6_depthwise_relu\/Relu6" : {
+      "k" : 192,
+      "w" : 19,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 19
+    },
+    "StatefulPartitionedCall\/ssd_mobile_net_v2keras_feature_extractor\/functional_1\/block_15_depthwise_relu\/Relu6" : {
+      "k" : 960,
+      "w" : 10,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 10
+    },
+    "StatefulPartitionedCall\/ssd_mobile_net_v2keras_feature_extractor\/functional_1\/block_10_expand_relu\/Relu6" : {
+      "k" : 384,
+      "w" : 19,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 19
+    },
+    "StatefulPartitionedCall\/ssd_mobile_net_v2keras_feature_extractor\/functional_1\/expanded_conv_depthwise_relu\/Relu6__relu6_neg__" : {
+      "k" : 32,
+      "w" : 150,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 150
+    },
+    "StatefulPartitionedCall\/ssd_mobile_net_v2keras_feature_extractor\/functional_1\/Conv1_relu\/Relu6__relu6_threshold6__" : {
+      "k" : 32,
+      "w" : 150,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 150
+    },
+    "conv_7" : {
+      "k" : 546,
+      "w" : 3,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 3
+    },
+    "StatefulPartitionedCall\/Postprocessor\/Decode\/unstack:3" : {
+      "k" : 1,
+      "w" : 1917,
+      "n" : 1,
+      "_rank" : 1,
+      "h" : 1
+    },
+    "StatefulPartitionedCall\/Postprocessor\/Decode\/Exp_1" : {
+      "k" : 1,
+      "w" : 1917,
+      "n" : 1,
+      "_rank" : 1,
+      "h" : 1
+    },
+    "StatefulPartitionedCall\/ssd_mobile_net_v2keras_feature_extractor\/FeatureMaps\/layer_19_1_Conv2d_4_1x1_128\/Relu6__relu6_relu__" : {
+      "k" : 128,
+      "w" : 3,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 3
+    },
+    "StatefulPartitionedCall\/ssd_mobile_net_v2keras_feature_extractor\/functional_1\/expanded_conv_depthwise_relu\/Relu6" : {
+      "k" : 32,
+      "w" : 150,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 150
+    },
+    "StatefulPartitionedCall\/BoxPredictor\/ConvolutionalBoxHead_2\/Reshape" : {
+      "k" : 150,
+      "w" : 4,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 1
+    },
+    "StatefulPartitionedCall\/ssd_mobile_net_v2keras_feature_extractor\/functional_1\/block_12_expand_relu\/Relu6__relu6_neg__" : {
+      "k" : 576,
+      "w" : 19,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 19
+    },
+    "StatefulPartitionedCall\/ssd_mobile_net_v2keras_feature_extractor\/functional_1\/block_5_expand_relu\/Relu6" : {
+      "k" : 192,
+      "w" : 38,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 38
+    },
+    "StatefulPartitionedCall\/ssd_mobile_net_v2keras_feature_extractor\/FeatureMaps\/layer_19_2_Conv2d_2_3x3_s2_512\/Relu6" : {
+      "k" : 512,
+      "w" : 5,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 5
+    },
+    "StatefulPartitionedCall\/BoxPredictor\/ConvolutionalBoxHead_4\/Reshape" : {
+      "k" : 24,
+      "w" : 4,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 1
+    },
+    "StatefulPartitionedCall\/ssd_mobile_net_v2keras_feature_extractor\/functional_1\/block_13_depthwise_relu\/Relu6" : {
+      "k" : 576,
+      "w" : 10,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 10
+    },
+    "StatefulPartitionedCall\/ssd_mobile_net_v2keras_feature_extractor\/FeatureMaps\/layer_19_2_Conv2d_5_3x3_s2_128\/Relu6__relu6_relu__" : {
+      "k" : 128,
+      "w" : 1,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 1
+    },
+    "StatefulPartitionedCall\/ssd_mobile_net_v2keras_feature_extractor\/FeatureMaps\/layer_19_2_Conv2d_3_3x3_s2_256\/Relu6" : {
+      "k" : 256,
+      "w" : 3,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 3
+    },
+    "conv_8" : {
+      "k" : 24,
+      "w" : 2,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 2
+    },
+    "StatefulPartitionedCall\/ssd_mobile_net_v2keras_feature_extractor\/functional_1\/block_9_add\/add" : {
+      "k" : 64,
+      "w" : 19,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 19
+    },
+    "StatefulPartitionedCall\/ssd_mobile_net_v2keras_feature_extractor\/FeatureMaps\/layer_19_2_Conv2d_4_3x3_s2_256\/Relu6__relu6_neg__" : {
+      "k" : 256,
+      "w" : 2,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 2
+    },
+    "StatefulPartitionedCall\/ssd_mobile_net_v2keras_feature_extractor\/functional_1\/out_relu\/Relu6__relu6_threshold6__" : {
+      "k" : 1280,
+      "w" : 10,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 10
+    },
+    "StatefulPartitionedCall\/Postprocessor\/Decode\/add_3" : {
+      "k" : 1,
+      "w" : 1917,
+      "n" : 1,
+      "_rank" : 1,
+      "h" : 1
+    },
+    "StatefulPartitionedCall\/ssd_mobile_net_v2keras_feature_extractor\/functional_1\/block_11_expand_relu\/Relu6" : {
+      "k" : 576,
+      "w" : 19,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 19
+    },
+    "StatefulPartitionedCall\/ssd_mobile_net_v2keras_feature_extractor\/functional_1\/block_5_depthwise_relu\/Relu6" : {
+      "k" : 192,
+      "w" : 38,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 38
+    },
+    "StatefulPartitionedCall\/ssd_mobile_net_v2keras_feature_extractor\/functional_1\/block_4_expand_relu\/Relu6" : {
+      "k" : 192,
+      "w" : 38,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 38
+    },
+    "StatefulPartitionedCall\/ssd_mobile_net_v2keras_feature_extractor\/functional_1\/out_relu\/Relu6__relu6_neg__" : {
+      "k" : 1280,
+      "w" : 10,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 10
+    },
+    "StatefulPartitionedCall\/ssd_mobile_net_v2keras_feature_extractor\/FeatureMaps\/layer_19_1_Conv2d_2_1x1_256\/Relu6" : {
+      "k" : 256,
+      "w" : 10,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 10
+    },
+    "StatefulPartitionedCall\/ssd_mobile_net_v2keras_feature_extractor\/functional_1\/block_9_expand_relu\/Relu6__relu6_neg__" : {
+      "k" : 384,
+      "w" : 19,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 19
+    },
+    "StatefulPartitionedCall\/Postprocessor\/Decode\/mul" : {
+      "k" : 1,
+      "w" : 1917,
+      "n" : 1,
+      "_rank" : 1,
+      "h" : 1
+    },
+    "StatefulPartitionedCall\/ssd_mobile_net_v2keras_feature_extractor\/functional_1\/block_7_expand_relu\/Relu6__relu6_neg__" : {
+      "k" : 384,
+      "w" : 19,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 19
+    },
+    "StatefulPartitionedCall\/ssd_mobile_net_v2keras_feature_extractor\/functional_1\/block_13_expand_relu\/Relu6__relu6_neg__" : {
+      "k" : 576,
+      "w" : 19,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 19
+    },
+    "StatefulPartitionedCall\/ssd_mobile_net_v2keras_feature_extractor\/functional_1\/block_15_add\/add" : {
+      "k" : 160,
+      "w" : 10,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 10
+    },
+    "StatefulPartitionedCall\/ssd_mobile_net_v2keras_feature_extractor\/functional_1\/block_12_expand_relu\/Relu6" : {
+      "k" : 576,
+      "w" : 19,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 19
+    },
+    "StatefulPartitionedCall\/Postprocessor\/Decode\/Exp" : {
+      "k" : 1,
+      "w" : 1917,
+      "n" : 1,
+      "_rank" : 1,
+      "h" : 1
+    },
+    "conv_9" : {
+      "k" : 546,
+      "w" : 2,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 2
+    },
+    "StatefulPartitionedCall\/ssd_mobile_net_v2keras_feature_extractor\/functional_1\/block_8_expand_relu\/Relu6__relu6_neg__" : {
+      "k" : 384,
+      "w" : 19,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 19
+    },
+    "StatefulPartitionedCall\/Postprocessor\/Decode\/mul_3" : {
+      "k" : 1,
+      "w" : 1917,
+      "n" : 1,
+      "_rank" : 1,
+      "h" : 1
+    },
+    "StatefulPartitionedCall\/ssd_mobile_net_v2keras_feature_extractor\/functional_1\/Conv1_relu\/Relu6" : {
+      "k" : 32,
+      "w" : 150,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 150
+    },
+    "cast_150" : {
+      "k" : 320,
+      "w" : 3,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 320
+    },
+    "StatefulPartitionedCall\/ssd_mobile_net_v2keras_feature_extractor\/functional_1\/block_4_add\/add" : {
+      "k" : 32,
+      "w" : 38,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 38
+    },
+    "StatefulPartitionedCall\/Postprocessor\/Decode\/unstack_unsqueezed_0" : {
+      "k" : 1,
+      "w" : 1917,
+      "n" : 1,
+      "_rank" : 2,
+      "h" : 1
+    },
+    "StatefulPartitionedCall\/Postprocessor\/Decode\/unstack_unsqueezed_1" : {
+      "k" : 1,
+      "w" : 1917,
+      "n" : 1,
+      "_rank" : 2,
+      "h" : 1
+    },
+    "StatefulPartitionedCall\/ssd_mobile_net_v2keras_feature_extractor\/FeatureMaps\/layer_19_2_Conv2d_3_3x3_s2_256\/Relu6__relu6_relu__" : {
+      "k" : 256,
+      "w" : 3,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 3
+    },
+    "StatefulPartitionedCall\/ssd_mobile_net_v2keras_feature_extractor\/functional_1\/block_6_expand_relu\/Relu6__relu6_neg__" : {
+      "k" : 192,
+      "w" : 38,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 38
+    },
+    "StatefulPartitionedCall\/Postprocessor\/Decode\/unstack_unsqueezed_2" : {
+      "k" : 1,
+      "w" : 1917,
+      "n" : 1,
+      "_rank" : 2,
+      "h" : 1
+    },
+    "StatefulPartitionedCall\/Postprocessor\/Decode\/unstack_unsqueezed_3" : {
+      "k" : 1,
+      "w" : 1917,
+      "n" : 1,
+      "_rank" : 2,
+      "h" : 1
+    },
+    "StatefulPartitionedCall\/ssd_mobile_net_v2keras_feature_extractor\/functional_1\/block_4_expand_relu\/Relu6__relu6_neg__" : {
+      "k" : 192,
+      "w" : 38,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 38
+    },
+    "StatefulPartitionedCall\/Preprocessor\/sub\/y" : {
+      "k" : 1,
+      "w" : 1,
+      "n" : 1,
+      "_rank" : 1,
+      "h" : 1
+    },
+    "StatefulPartitionedCall\/Postprocessor\/Decode\/add_1" : {
+      "k" : 1,
+      "w" : 1917,
+      "n" : 1,
+      "_rank" : 1,
+      "h" : 1
+    },
+    "StatefulPartitionedCall\/ssd_mobile_net_v2keras_feature_extractor\/FeatureMaps\/layer_19_1_Conv2d_3_1x1_128\/Relu6__relu6_threshold6__" : {
+      "k" : 128,
+      "w" : 5,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 5
+    },
+    "StatefulPartitionedCall\/ssd_mobile_net_v2keras_feature_extractor\/FeatureMaps\/layer_19_1_Conv2d_4_1x1_128\/Relu6__relu6_threshold6__" : {
+      "k" : 128,
+      "w" : 3,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 3
+    },
+    "_neg_y_StatefulPartitionedCall\/Preprocessor\/sub" : {
+      "k" : 1,
+      "w" : 1,
+      "n" : 1,
+      "_rank" : 1,
+      "h" : 1
+    },
+    "StatefulPartitionedCall\/ssd_mobile_net_v2keras_feature_extractor\/functional_1\/block_1_depthwise_relu\/Relu6__relu6_relu__" : {
+      "k" : 96,
+      "w" : 75,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 75
+    },
+    "StatefulPartitionedCall\/ssd_mobile_net_v2keras_feature_extractor\/functional_1\/block_12_add\/add" : {
+      "k" : 96,
+      "w" : 19,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 19
+    },
+    "StatefulPartitionedCall\/ssd_mobile_net_v2keras_feature_extractor\/functional_1\/block_2_depthwise_relu\/Relu6__relu6_relu__" : {
+      "k" : 144,
+      "w" : 75,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 75
+    },
+    "StatefulPartitionedCall\/ssd_mobile_net_v2keras_feature_extractor\/functional_1\/block_3_depthwise_relu\/Relu6__relu6_relu__" : {
+      "k" : 144,
+      "w" : 38,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 38
+    },
+    "StatefulPartitionedCall\/ssd_mobile_net_v2keras_feature_extractor\/functional_1\/block_4_depthwise_relu\/Relu6__relu6_relu__" : {
+      "k" : 192,
+      "w" : 38,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 38
+    },
+    "StatefulPartitionedCall\/ssd_mobile_net_v2keras_feature_extractor\/functional_1\/block_5_depthwise_relu\/Relu6__relu6_relu__" : {
+      "k" : 192,
+      "w" : 38,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 38
+    },
+    "StatefulPartitionedCall\/ssd_mobile_net_v2keras_feature_extractor\/functional_1\/block_6_depthwise_relu\/Relu6__relu6_relu__" : {
+      "k" : 192,
+      "w" : 19,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 19
+    },
+    "StatefulPartitionedCall\/ssd_mobile_net_v2keras_feature_extractor\/functional_1\/block_7_depthwise_relu\/Relu6__relu6_relu__" : {
+      "k" : 384,
+      "w" : 19,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 19
+    },
+    "StatefulPartitionedCall\/ssd_mobile_net_v2keras_feature_extractor\/functional_1\/block_8_depthwise_relu\/Relu6__relu6_relu__" : {
+      "k" : 384,
+      "w" : 19,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 19
+    },
+    "StatefulPartitionedCall\/ssd_mobile_net_v2keras_feature_extractor\/functional_1\/block_9_depthwise_relu\/Relu6__relu6_relu__" : {
+      "k" : 384,
+      "w" : 19,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 19
+    },
+    "StatefulPartitionedCall\/ssd_mobile_net_v2keras_feature_extractor\/functional_1\/block_10_expand_relu\/Relu6__relu6_threshold6__" : {
+      "k" : 384,
+      "w" : 19,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 19
+    },
+    "StatefulPartitionedCall\/ssd_mobile_net_v2keras_feature_extractor\/FeatureMaps\/layer_19_1_Conv2d_3_1x1_128\/Relu6__relu6_neg__" : {
+      "k" : 128,
+      "w" : 5,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 5
+    },
+    "StatefulPartitionedCall\/ssd_mobile_net_v2keras_feature_extractor\/functional_1\/block_11_expand_relu\/Relu6__relu6_threshold6__" : {
+      "k" : 576,
+      "w" : 19,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 19
+    },
+    "conv_0" : {
+      "k" : 12,
+      "w" : 19,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 19
+    },
+    "StatefulPartitionedCall\/ssd_mobile_net_v2keras_feature_extractor\/functional_1\/block_12_expand_relu\/Relu6__relu6_threshold6__" : {
+      "k" : 576,
+      "w" : 19,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 19
+    },
+    "StatefulPartitionedCall\/ssd_mobile_net_v2keras_feature_extractor\/functional_1\/block_13_expand_relu\/Relu6__relu6_threshold6__" : {
+      "k" : 576,
+      "w" : 19,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 19
+    },
+    "StatefulPartitionedCall\/ssd_mobile_net_v2keras_feature_extractor\/functional_1\/block_14_expand_relu\/Relu6__relu6_threshold6__" : {
+      "k" : 960,
+      "w" : 10,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 10
+    },
+    "StatefulPartitionedCall\/ssd_mobile_net_v2keras_feature_extractor\/functional_1\/block_15_expand_relu\/Relu6__relu6_threshold6__" : {
+      "k" : 960,
+      "w" : 10,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 10
+    },
+    "StatefulPartitionedCall\/ssd_mobile_net_v2keras_feature_extractor\/functional_1\/block_16_expand_relu\/Relu6__relu6_threshold6__" : {
+      "k" : 960,
+      "w" : 10,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 10
+    },
+    "StatefulPartitionedCall\/ssd_mobile_net_v2keras_feature_extractor\/functional_1\/block_16_depthwise_relu\/Relu6" : {
+      "k" : 960,
+      "w" : 10,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 10
+    },
+    "StatefulPartitionedCall\/ssd_mobile_net_v2keras_feature_extractor\/functional_1\/block_13_expand_relu\/Relu6" : {
+      "k" : 576,
+      "w" : 19,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 19
+    },
+    "StatefulPartitionedCall\/ssd_mobile_net_v2keras_feature_extractor\/FeatureMaps\/layer_19_2_Conv2d_4_3x3_s2_256\/Relu6__relu6_relu__" : {
+      "k" : 256,
+      "w" : 2,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 2
+    },
+    "_neg_y_StatefulPartitionedCall\/Postprocessor\/Decode\/sub_1" : {
+      "k" : 1,
+      "w" : 1917,
+      "n" : 1,
+      "_rank" : 1,
+      "h" : 1
+    },
+    "StatefulPartitionedCall\/ssd_mobile_net_v2keras_feature_extractor\/functional_1\/block_5_expand_relu\/Relu6__relu6_neg__" : {
+      "k" : 192,
+      "w" : 38,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 38
+    },
+    "StatefulPartitionedCall\/ssd_mobile_net_v2keras_feature_extractor\/functional_1\/block_1_expand_relu\/Relu6__relu6_relu__" : {
+      "k" : 96,
+      "w" : 150,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 150
+    },
+    "StatefulPartitionedCall\/ssd_mobile_net_v2keras_feature_extractor\/functional_1\/block_2_expand_relu\/Relu6__relu6_relu__" : {
+      "k" : 144,
+      "w" : 75,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 75
+    },
+    "StatefulPartitionedCall\/ssd_mobile_net_v2keras_feature_extractor\/functional_1\/block_3_expand_relu\/Relu6__relu6_relu__" : {
+      "k" : 144,
+      "w" : 75,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 75
+    },
+    "StatefulPartitionedCall\/ssd_mobile_net_v2keras_feature_extractor\/functional_1\/block_4_expand_relu\/Relu6__relu6_relu__" : {
+      "k" : 192,
+      "w" : 38,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 38
+    },
+    "StatefulPartitionedCall\/ssd_mobile_net_v2keras_feature_extractor\/functional_1\/block_5_expand_relu\/Relu6__relu6_relu__" : {
+      "k" : 192,
+      "w" : 38,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 38
+    },
+    "StatefulPartitionedCall\/ssd_mobile_net_v2keras_feature_extractor\/functional_1\/block_6_expand_relu\/Relu6__relu6_relu__" : {
+      "k" : 192,
+      "w" : 38,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 38
+    },
+    "StatefulPartitionedCall\/ssd_mobile_net_v2keras_feature_extractor\/functional_1\/block_7_expand_relu\/Relu6__relu6_relu__" : {
+      "k" : 384,
+      "w" : 19,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 19
+    },
+    "StatefulPartitionedCall\/ssd_mobile_net_v2keras_feature_extractor\/functional_1\/block_8_expand_relu\/Relu6__relu6_relu__" : {
+      "k" : 384,
+      "w" : 19,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 19
+    },
+    "StatefulPartitionedCall\/ssd_mobile_net_v2keras_feature_extractor\/functional_1\/block_9_expand_relu\/Relu6__relu6_relu__" : {
+      "k" : 384,
+      "w" : 19,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 19
+    },
+    "StatefulPartitionedCall\/Preprocessor\/sub" : {
+      "k" : 320,
+      "w" : 3,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 320
+    },
+    "StatefulPartitionedCall\/ssd_mobile_net_v2keras_feature_extractor\/functional_1\/block_3_expand_relu\/Relu6__relu6_neg__" : {
+      "k" : 144,
+      "w" : 75,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 75
+    },
+    "StatefulPartitionedCall\/ssd_mobile_net_v2keras_feature_extractor\/functional_1\/block_14_expand_relu\/Relu6" : {
+      "k" : 960,
+      "w" : 10,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 10
+    },
+    "StatefulPartitionedCall\/ssd_mobile_net_v2keras_feature_extractor\/functional_1\/block_4_depthwise_relu\/Relu6" : {
+      "k" : 192,
+      "w" : 38,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 38
+    },
+    "StatefulPartitionedCall\/Postprocessor\/Decode\/truediv" : {
+      "k" : 1,
+      "w" : 1917,
+      "n" : 1,
+      "_rank" : 1,
+      "h" : 1
+    },
+    "StatefulPartitionedCall\/Postprocessor\/Decode\/get_center_coordinates_and_sizes\/add" : {
+      "k" : 1,
+      "w" : 1917,
+      "n" : 1,
+      "_rank" : 1,
+      "h" : 1
+    },
+    "raw_detection_boxes" : {
+      "k" : 1,
+      "w" : 4,
+      "n" : 1,
+      "_rank" : 3,
+      "h" : 1917
+    },
+    "StatefulPartitionedCall\/Postprocessor\/Decode\/mul_1" : {
+      "k" : 1,
+      "w" : 1917,
+      "n" : 1,
+      "_rank" : 1,
+      "h" : 1
+    },
+    "StatefulPartitionedCall\/ssd_mobile_net_v2keras_feature_extractor\/functional_1\/block_5_add\/add" : {
+      "k" : 32,
+      "w" : 38,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 38
+    },
+    "StatefulPartitionedCall\/ssd_mobile_net_v2keras_feature_extractor\/functional_1\/block_3_expand_relu\/Relu6" : {
+      "k" : 144,
+      "w" : 75,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 75
+    },
+    "StatefulPartitionedCall\/ssd_mobile_net_v2keras_feature_extractor\/functional_1\/block_1_expand_relu\/Relu6__relu6_neg__" : {
+      "k" : 96,
+      "w" : 150,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 150
+    },
+    "_neg_y_StatefulPartitionedCall\/Postprocessor\/Decode\/sub" : {
+      "k" : 1,
+      "w" : 1917,
+      "n" : 1,
+      "_rank" : 1,
+      "h" : 1
+    },
+    "StatefulPartitionedCall\/ssd_mobile_net_v2keras_feature_extractor\/functional_1\/block_11_depthwise_relu\/Relu6" : {
+      "k" : 576,
+      "w" : 19,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 19
+    },
+    "StatefulPartitionedCall\/ssd_mobile_net_v2keras_feature_extractor\/functional_1\/block_15_expand_relu\/Relu6" : {
+      "k" : 960,
+      "w" : 10,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 10
+    },
+    "StatefulPartitionedCall\/ssd_mobile_net_v2keras_feature_extractor\/functional_1\/block_3_depthwise_relu\/Relu6" : {
+      "k" : 144,
+      "w" : 38,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 38
+    },
+    "StatefulPartitionedCall\/ssd_mobile_net_v2keras_feature_extractor\/functional_1\/block_2_expand_relu\/Relu6__relu6_neg__" : {
+      "k" : 144,
+      "w" : 75,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 75
+    },
+    "conv_1" : {
+      "k" : 273,
+      "w" : 19,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 19
+    },
+    "StatefulPartitionedCall\/ssd_mobile_net_v2keras_feature_extractor\/functional_1\/block_10_depthwise_relu\/Relu6__relu6_relu__" : {
+      "k" : 384,
+      "w" : 19,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 19
+    },
+    "StatefulPartitionedCall\/ssd_mobile_net_v2keras_feature_extractor\/functional_1\/block_11_depthwise_relu\/Relu6__relu6_relu__" : {
+      "k" : 576,
+      "w" : 19,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 19
+    },
+    "StatefulPartitionedCall\/ssd_mobile_net_v2keras_feature_extractor\/functional_1\/block_12_depthwise_relu\/Relu6__relu6_relu__" : {
+      "k" : 576,
+      "w" : 19,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 19
+    },
+    "StatefulPartitionedCall\/ssd_mobile_net_v2keras_feature_extractor\/functional_1\/block_13_depthwise_relu\/Relu6__relu6_relu__" : {
+      "k" : 576,
+      "w" : 10,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 10
+    },
+    "StatefulPartitionedCall\/ssd_mobile_net_v2keras_feature_extractor\/functional_1\/block_14_depthwise_relu\/Relu6__relu6_relu__" : {
+      "k" : 960,
+      "w" : 10,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 10
+    },
+    "StatefulPartitionedCall\/ssd_mobile_net_v2keras_feature_extractor\/functional_1\/block_15_depthwise_relu\/Relu6__relu6_relu__" : {
+      "k" : 960,
+      "w" : 10,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 10
+    },
+    "StatefulPartitionedCall\/ssd_mobile_net_v2keras_feature_extractor\/functional_1\/block_16_depthwise_relu\/Relu6__relu6_relu__" : {
+      "k" : 960,
+      "w" : 10,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 10
+    },
+    "raw_detection_scores" : {
+      "k" : 1,
+      "w" : 91,
+      "n" : 1,
+      "_rank" : 3,
+      "h" : 1917
+    },
+    "StatefulPartitionedCall\/Postprocessor\/Decode\/truediv_1" : {
+      "k" : 1,
+      "w" : 1917,
+      "n" : 1,
+      "_rank" : 1,
+      "h" : 1
+    },
+    "StatefulPartitionedCall\/Postprocessor\/ExpandDims_1" : {
+      "k" : 1917,
+      "w" : 4,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 1
+    },
+    "StatefulPartitionedCall\/ssd_mobile_net_v2keras_feature_extractor\/FeatureMaps\/layer_19_1_Conv2d_5_1x1_64\/Relu6__relu6_neg__" : {
+      "k" : 64,
+      "w" : 2,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 2
+    },
+    "StatefulPartitionedCall\/ssd_mobile_net_v2keras_feature_extractor\/functional_1\/block_2_expand_relu\/Relu6" : {
+      "k" : 144,
+      "w" : 75,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 75
+    },
+    "StatefulPartitionedCall\/ssd_mobile_net_v2keras_feature_extractor\/FeatureMaps\/layer_19_2_Conv2d_5_3x3_s2_128\/Relu6__relu6_neg__" : {
+      "k" : 128,
+      "w" : 1,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 1
+    },
+    "StatefulPartitionedCall\/ssd_mobile_net_v2keras_feature_extractor\/functional_1\/Conv1_relu\/Relu6__relu6_neg__" : {
+      "k" : 32,
+      "w" : 150,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 150
+    },
+    "StatefulPartitionedCall\/ssd_mobile_net_v2keras_feature_extractor\/functional_1\/expanded_conv_depthwise_relu\/Relu6__relu6_threshold6__" : {
+      "k" : 32,
+      "w" : 150,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 150
+    },
+    "StatefulPartitionedCall\/ssd_mobile_net_v2keras_feature_extractor\/functional_1\/block_10_depthwise_relu\/Relu6__relu6_threshold6__" : {
+      "k" : 384,
+      "w" : 19,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 19
+    },
+    "StatefulPartitionedCall\/ssd_mobile_net_v2keras_feature_extractor\/functional_1\/block_16_expand_relu\/Relu6" : {
+      "k" : 960,
+      "w" : 10,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 10
+    },
+    "StatefulPartitionedCall\/ssd_mobile_net_v2keras_feature_extractor\/functional_1\/block_14_expand_relu\/Relu6__relu6_neg__" : {
+      "k" : 960,
+      "w" : 10,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 10
+    },
+    "StatefulPartitionedCall\/ssd_mobile_net_v2keras_feature_extractor\/functional_1\/block_11_depthwise_relu\/Relu6__relu6_threshold6__" : {
+      "k" : 576,
+      "w" : 19,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 19
+    },
+    "StatefulPartitionedCall\/ssd_mobile_net_v2keras_feature_extractor\/functional_1\/block_12_depthwise_relu\/Relu6__relu6_threshold6__" : {
+      "k" : 576,
+      "w" : 19,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 19
+    },
+    "StatefulPartitionedCall\/ssd_mobile_net_v2keras_feature_extractor\/functional_1\/block_13_depthwise_relu\/Relu6__relu6_threshold6__" : {
+      "k" : 576,
+      "w" : 10,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 10
+    },
+    "StatefulPartitionedCall\/ssd_mobile_net_v2keras_feature_extractor\/functional_1\/block_14_depthwise_relu\/Relu6__relu6_threshold6__" : {
+      "k" : 960,
+      "w" : 10,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 10
+    },
+    "StatefulPartitionedCall\/ssd_mobile_net_v2keras_feature_extractor\/functional_1\/block_15_depthwise_relu\/Relu6__relu6_threshold6__" : {
+      "k" : 960,
+      "w" : 10,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 10
+    },
+    "StatefulPartitionedCall\/ssd_mobile_net_v2keras_feature_extractor\/functional_1\/block_16_depthwise_relu\/Relu6__relu6_threshold6__" : {
+      "k" : 960,
+      "w" : 10,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 10
+    },
+    "transpose_219" : {
+      "k" : 3,
+      "w" : 320,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 320
+    },
+    "StatefulPartitionedCall\/concat" : {
+      "k" : 1917,
+      "w" : 4,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 1
+    },
+    "transpose_218" : {
+      "k" : 19,
+      "w" : 12,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 19
+    },
+    "StatefulPartitionedCall\/ssd_mobile_net_v2keras_feature_extractor\/functional_1\/Conv1_relu\/Relu6__relu6_relu__" : {
+      "k" : 32,
+      "w" : 150,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 150
+    },
+    "StatefulPartitionedCall\/Postprocessor\/Decode\/truediv_2" : {
+      "k" : 1,
+      "w" : 1917,
+      "n" : 1,
+      "_rank" : 1,
+      "h" : 1
+    },
+    "StatefulPartitionedCall\/Preprocessor\/ResizeImage\/resize\/ResizeBilinear_channel_first_resize_bilinear" : {
+      "k" : 3,
+      "w" : 300,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 300
+    },
+    "transpose_217" : {
+      "k" : 19,
+      "w" : 273,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 19
+    },
+    "StatefulPartitionedCall\/ssd_mobile_net_v2keras_feature_extractor\/functional_1\/out_relu\/Relu6" : {
+      "k" : 1280,
+      "w" : 10,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 10
+    },
+    "transpose_216" : {
+      "k" : 10,
+      "w" : 24,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 10
+    },
+    "StatefulPartitionedCall\/ssd_mobile_net_v2keras_feature_extractor\/FeatureMaps\/layer_19_1_Conv2d_3_1x1_128\/Relu6" : {
+      "k" : 128,
+      "w" : 5,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 5
+    },
+    "conv_2" : {
+      "k" : 24,
+      "w" : 10,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 10
+    },
+    "StatefulPartitionedCall\/ssd_mobile_net_v2keras_feature_extractor\/functional_1\/block_1_project_BN\/FusedBatchNormV3_nchw" : {
+      "k" : 24,
+      "w" : 75,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 75
+    },
+    "StatefulPartitionedCall\/ssd_mobile_net_v2keras_feature_extractor\/functional_1\/block_2_project_BN\/FusedBatchNormV3_nchw" : {
+      "k" : 24,
+      "w" : 75,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 75
+    },
+    "StatefulPartitionedCall\/ssd_mobile_net_v2keras_feature_extractor\/functional_1\/block_3_project_BN\/FusedBatchNormV3_nchw" : {
+      "k" : 32,
+      "w" : 38,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 38
+    },
+    "StatefulPartitionedCall\/ssd_mobile_net_v2keras_feature_extractor\/functional_1\/block_4_project_BN\/FusedBatchNormV3_nchw" : {
+      "k" : 32,
+      "w" : 38,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 38
+    },
+    "StatefulPartitionedCall\/ssd_mobile_net_v2keras_feature_extractor\/functional_1\/block_5_project_BN\/FusedBatchNormV3_nchw" : {
+      "k" : 32,
+      "w" : 38,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 38
+    },
+    "StatefulPartitionedCall\/ssd_mobile_net_v2keras_feature_extractor\/functional_1\/block_6_project_BN\/FusedBatchNormV3_nchw" : {
+      "k" : 64,
+      "w" : 19,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 19
+    },
+    "StatefulPartitionedCall\/ssd_mobile_net_v2keras_feature_extractor\/functional_1\/block_7_project_BN\/FusedBatchNormV3_nchw" : {
+      "k" : 64,
+      "w" : 19,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 19
+    },
+    "StatefulPartitionedCall\/BoxPredictor\/ConvolutionalClassHead_4\/Reshape" : {
+      "k" : 1,
+      "w" : 91,
+      "n" : 1,
+      "_rank" : 3,
+      "h" : 24
+    },
+    "StatefulPartitionedCall\/ssd_mobile_net_v2keras_feature_extractor\/functional_1\/block_8_project_BN\/FusedBatchNormV3_nchw" : {
+      "k" : 64,
+      "w" : 19,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 19
+    },
+    "StatefulPartitionedCall\/ssd_mobile_net_v2keras_feature_extractor\/functional_1\/block_9_project_BN\/FusedBatchNormV3_nchw" : {
+      "k" : 64,
+      "w" : 19,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 19
+    },
+    "transpose_215" : {
+      "k" : 10,
+      "w" : 546,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 10
+    },
+    "transpose_220" : {
+      "k" : 320,
+      "w" : 3,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 320
+    },
+    "transpose_209" : {
+      "k" : 2,
+      "w" : 546,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 2
+    },
+    "transpose_214" : {
+      "k" : 5,
+      "w" : 24,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 5
+    },
+    "StatefulPartitionedCall\/BoxPredictor\/ConvolutionalClassHead_5\/Reshape" : {
+      "k" : 1,
+      "w" : 91,
+      "n" : 1,
+      "_rank" : 3,
+      "h" : 6
+    },
+    "transpose_208" : {
+      "k" : 1,
+      "w" : 24,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 1
+    },
+    "transpose_213" : {
+      "k" : 5,
+      "w" : 546,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 5
+    },
+    "StatefulPartitionedCall\/ssd_mobile_net_v2keras_feature_extractor\/functional_1\/block_14_depthwise_relu\/Relu6" : {
+      "k" : 960,
+      "w" : 10,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 10
+    },
+    "StatefulPartitionedCall\/BoxPredictor\/ConvolutionalBoxHead_1\/Reshape" : {
+      "k" : 600,
+      "w" : 4,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 1
+    },
+    "StatefulPartitionedCall\/ssd_mobile_net_v2keras_feature_extractor\/functional_1\/block_2_depthwise_relu\/Relu6" : {
+      "k" : 144,
+      "w" : 75,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 75
+    },
+    "transpose_207" : {
+      "k" : 1,
+      "w" : 546,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 1
+    },
+    "StatefulPartitionedCall\/Postprocessor\/Decode\/truediv_3" : {
+      "k" : 1,
+      "w" : 1917,
+      "n" : 1,
+      "_rank" : 1,
+      "h" : 1
+    },
+    "transpose_212" : {
+      "k" : 3,
+      "w" : 24,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 3
+    },
+    "StatefulPartitionedCall\/ssd_mobile_net_v2keras_feature_extractor\/functional_1\/block_15_expand_relu\/Relu6__relu6_neg__" : {
+      "k" : 960,
+      "w" : 10,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 10
+    },
+    "StatefulPartitionedCall\/ssd_mobile_net_v2keras_feature_extractor\/functional_1\/block_9_expand_relu\/Relu6" : {
+      "k" : 384,
+      "w" : 19,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 19
+    },
+    "StatefulPartitionedCall\/Postprocessor\/Decode\/get_center_coordinates_and_sizes\/sub" : {
+      "k" : 1,
+      "w" : 1917,
+      "n" : 1,
+      "_rank" : 1,
+      "h" : 1
+    },
+    "transpose_206" : {
+      "k" : 1,
+      "w" : 1917,
+      "n" : 1,
+      "_rank" : 2,
+      "h" : 4
+    },
+    "StatefulPartitionedCall\/Postprocessor\/Decode\/stack" : {
+      "k" : 1,
+      "w" : 1917,
+      "n" : 1,
+      "_rank" : 2,
+      "h" : 4
+    },
+    "transpose_211" : {
+      "k" : 3,
+      "w" : 546,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 3
+    },
+    "StatefulPartitionedCall\/ssd_mobile_net_v2keras_feature_extractor\/functional_1\/block_9_depthwise_relu\/Relu6" : {
+      "k" : 384,
+      "w" : 19,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 19
+    },
+    "conv_10" : {
+      "k" : 24,
+      "w" : 1,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 1
+    },
+    "StatefulPartitionedCall\/BoxPredictor\/ConvolutionalBoxHead_3\/Reshape" : {
+      "k" : 54,
+      "w" : 4,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 1
+    },
+    "StatefulPartitionedCall\/ssd_mobile_net_v2keras_feature_extractor\/functional_1\/block_10_expand_relu\/Relu6__relu6_neg__" : {
+      "k" : 384,
+      "w" : 19,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 19
+    },
+    "transpose_205" : {
+      "k" : 1,
+      "w" : 4,
+      "n" : 1,
+      "_rank" : 2,
+      "h" : 1917
+    },
+    "transpose_210" : {
+      "k" : 2,
+      "w" : 24,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 2
+    },
+    "StatefulPartitionedCall\/ssd_mobile_net_v2keras_feature_extractor\/FeatureMaps\/layer_19_2_Conv2d_5_3x3_s2_128\/Relu6__relu6_threshold6__" : {
+      "k" : 128,
+      "w" : 1,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 1
+    },
+    "StatefulPartitionedCall\/ssd_mobile_net_v2keras_feature_extractor\/functional_1\/block_14_add\/add" : {
+      "k" : 160,
+      "w" : 10,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 10
+    },
+    "StatefulPartitionedCall\/BoxPredictor\/ConvolutionalClassHead_2\/Reshape" : {
+      "k" : 1,
+      "w" : 91,
+      "n" : 1,
+      "_rank" : 3,
+      "h" : 150
+    },
+    "StatefulPartitionedCall\/ssd_mobile_net_v2keras_feature_extractor\/FeatureMaps\/layer_19_1_Conv2d_2_1x1_256\/Relu6__relu6_relu__" : {
+      "k" : 256,
+      "w" : 10,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 10
+    },
+    "StatefulPartitionedCall\/ssd_mobile_net_v2keras_feature_extractor\/functional_1\/block_1_expand_relu\/Relu6" : {
+      "k" : 96,
+      "w" : 150,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 150
+    },
+    "conv_3" : {
+      "k" : 546,
+      "w" : 10,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 10
+    },
+    "StatefulPartitionedCall\/BoxPredictor\/ConvolutionalClassHead_3\/Reshape" : {
+      "k" : 1,
+      "w" : 91,
+      "n" : 1,
+      "_rank" : 3,
+      "h" : 54
+    },
+    "StatefulPartitionedCall\/BoxPredictor\/ConvolutionalBoxHead_5\/Reshape" : {
+      "k" : 6,
+      "w" : 4,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 1
+    },
+    "StatefulPartitionedCall\/ssd_mobile_net_v2keras_feature_extractor\/FeatureMaps\/layer_19_1_Conv2d_2_1x1_256\/Relu6__relu6_threshold6__" : {
+      "k" : 256,
+      "w" : 10,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 10
+    },
+    "StatefulPartitionedCall\/ssd_mobile_net_v2keras_feature_extractor\/FeatureMaps\/layer_19_2_Conv2d_5_3x3_s2_128\/Relu6" : {
+      "k" : 128,
+      "w" : 1,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 1
+    },
+    "StatefulPartitionedCall\/Postprocessor\/Decode\/truediv_4" : {
+      "k" : 1,
+      "w" : 1917,
+      "n" : 1,
+      "_rank" : 1,
+      "h" : 1
+    },
+    "StatefulPartitionedCall\/ssd_mobile_net_v2keras_feature_extractor\/functional_1\/block_8_depthwise_relu\/Relu6" : {
+      "k" : 384,
+      "w" : 19,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 19
+    },
+    "input_tensor" : {
+      "k" : 3,
+      "w" : 320,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 320
+    },
+    "StatefulPartitionedCall\/ssd_mobile_net_v2keras_feature_extractor\/functional_1\/block_8_expand_relu\/Relu6" : {
+      "k" : 384,
+      "w" : 19,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 19
+    },
+    "StatefulPartitionedCall\/ssd_mobile_net_v2keras_feature_extractor\/functional_1\/block_1_depthwise_relu\/Relu6__relu6_neg__" : {
+      "k" : 96,
+      "w" : 75,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 75
+    },
+    "StatefulPartitionedCall\/ssd_mobile_net_v2keras_feature_extractor\/FeatureMaps\/layer_19_1_Conv2d_5_1x1_64\/Relu6__relu6_threshold6__" : {
+      "k" : 64,
+      "w" : 2,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 2
+    },
+    "StatefulPartitionedCall\/ssd_mobile_net_v2keras_feature_extractor\/functional_1\/block_11_add\/add" : {
+      "k" : 96,
+      "w" : 19,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 19
+    },
+    "StatefulPartitionedCall\/ssd_mobile_net_v2keras_feature_extractor\/functional_1\/block_2_depthwise_relu\/Relu6__relu6_neg__" : {
+      "k" : 144,
+      "w" : 75,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 75
+    },
+    "StatefulPartitionedCall\/ssd_mobile_net_v2keras_feature_extractor\/functional_1\/block_3_depthwise_relu\/Relu6__relu6_neg__" : {
+      "k" : 144,
+      "w" : 38,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 38
+    },
+    "StatefulPartitionedCall\/ssd_mobile_net_v2keras_feature_extractor\/functional_1\/block_4_depthwise_relu\/Relu6__relu6_neg__" : {
+      "k" : 192,
+      "w" : 38,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 38
+    }
+  }
+}

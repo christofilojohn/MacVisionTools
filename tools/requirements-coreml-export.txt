@@ -1,0 +1,3 @@
+coremltools==7.2
+tensorflow-macos==2.12.0
+numpy<1.24

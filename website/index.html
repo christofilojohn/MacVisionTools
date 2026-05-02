@@ -1,0 +1,250 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Mac Vision Tools is a macOS menu bar app for real-time local computer vision, object detection, emotion detection, privacy monitoring, and focus tracking.">
+    <title>Mac Vision Tools</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon.png">
+    <link rel="manifest" href="/assets/site.webmanifest">
+    <meta name="theme-color" content="#111819">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="Mac Vision Tools home">
+        <span class="brand-mark"></span>
+        <span>Mac Vision Tools</span>
+      </a>
+      <nav class="site-nav" aria-label="Primary navigation">
+        <a href="#modes">Modes</a>
+        <a href="#models">Models</a>
+        <a href="#privacy">Privacy</a>
+        <a href="privacy/">Policy</a>
+        <a href="#download">Download</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="screenshot-field" aria-hidden="true">
+          <img class="shot shot-standard" src="../images/standard.png" alt="">
+          <img class="shot shot-emotion" src="../images/emotion.png" alt="">
+          <img class="shot shot-privacy" src="../images/privacy.png" alt="">
+        </div>
+        <div class="hero-shade"></div>
+        <div class="hero-copy">
+          <p class="eyebrow">Local Core ML vision for macOS</p>
+          <h1 id="hero-title">Mac Vision Tools</h1>
+          <p class="hero-text">A menu bar workspace for real-time object detection, emotion monitoring, privacy guardrails, and focus sessions from camera or screen capture.</p>
+          <div class="hero-actions">
+            <a class="button primary" href="https://github.com/christofilojohn/MacVisionTools">GitHub Repo</a>
+            <a class="button secondary" href="https://github.com/christofilojohn/MacVisionTools/releases">Download Release</a>
+          </div>
+        </div>
+      </section>
+
+      <section id="modes" class="section mode-band" aria-labelledby="modes-title">
+        <div class="section-inner">
+          <div class="section-heading">
+            <p class="eyebrow">Four workflows</p>
+            <h2 id="modes-title">Built for live visual awareness</h2>
+          </div>
+          <div class="mode-grid">
+            <article class="mode-card accent-orange">
+              <span class="mode-label">Standard</span>
+              <h3>Object detection</h3>
+              <p>Run a bundled SSD MobileNet detector or bring your own Core ML model for labeled detections.</p>
+            </article>
+            <article class="mode-card accent-pink">
+              <span class="mode-label">Emotion</span>
+              <h3>Face emotion cues</h3>
+              <p>Detect faces first, classify the visible emotion, and keep a short recent history.</p>
+            </article>
+            <article class="mode-card accent-red">
+              <span class="mode-label">Privacy</span>
+              <h3>Presence threshold</h3>
+              <p>Count visible people and start the screen saver when your configured threshold is reached.</p>
+            </article>
+            <article class="mode-card accent-blue">
+              <span class="mode-label">Focus</span>
+              <h3>Attention timer</h3>
+              <p>Use native Apple Vision head-pose tracking to count focused time toward a session goal.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section screenshot-section" aria-labelledby="screens-title">
+        <div class="section-inner">
+          <div class="section-heading">
+            <p class="eyebrow">Camera or screen</p>
+            <h2 id="screens-title">Choose the capture source and display style</h2>
+          </div>
+          <div class="screenshot-row">
+            <figure>
+              <img src="../images/standard.png" alt="Mac Vision Tools standard detection window">
+              <figcaption>Windowed detection preview</figcaption>
+            </figure>
+            <figure>
+              <img src="../images/emotion.png" alt="Mac Vision Tools emotion monitoring panel">
+              <figcaption>Emotion mode controls</figcaption>
+            </figure>
+            <figure>
+              <img src="../images/privacy.png" alt="Mac Vision Tools privacy guard panel">
+              <figcaption>Privacy guard threshold</figcaption>
+            </figure>
+            <figure>
+              <img src="../images/focus.png" alt="Mac Vision Tools focus timer panel">
+              <figcaption>Native focus tracking</figcaption>
+            </figure>
+          </div>
+        </div>
+      </section>
+
+      <section id="models" class="section models-band" aria-labelledby="models-title">
+        <div class="section-inner">
+          <div class="section-heading">
+            <p class="eyebrow">Model contracts</p>
+            <h2 id="models-title">Know what to train or drop in</h2>
+            <p>Mac Vision Tools accepts local Core ML models. Use these contracts when replacing a bundled model, training a new one, or choosing whether a file belongs in detection or emotion mode.</p>
+          </div>
+
+          <div class="model-grid">
+            <article class="model-card accent-orange">
+              <span class="mode-label">Bundled detector</span>
+              <h3>SSD MobileNet V2 COCO</h3>
+              <p>Used by Standard Detection and Privacy Guard for live object labels and person counting.</p>
+              <div class="spec-list">
+                <div class="spec-row">
+                  <span class="spec-key">Task</span>
+                  <span class="spec-value">Object detection</span>
+                </div>
+                <div class="spec-row">
+                  <span class="spec-key">Classes</span>
+                  <div class="spec-value">80 COCO object classes. Privacy Guard depends on the <code>person</code> class being present and named clearly.
+                    <details class="class-list">
+                      <summary>View the bundled COCO labels</summary>
+                      <p>person, bicycle, car, motorcycle, airplane, bus, train, truck, boat, traffic light, fire hydrant, stop sign, parking meter, bench, bird, cat, dog, horse, sheep, cow, elephant, bear, zebra, giraffe, backpack, umbrella, handbag, tie, suitcase, frisbee, skis, snowboard, sports ball, kite, baseball bat, baseball glove, skateboard, surfboard, tennis racket, bottle, wine glass, cup, fork, knife, spoon, bowl, banana, apple, sandwich, orange, broccoli, carrot, hot dog, pizza, donut, cake, chair, couch, potted plant, bed, dining table, toilet, tv, laptop, mouse, remote, keyboard, cell phone, microwave, oven, toaster, sink, refrigerator, book, clock, vase, scissors, teddy bear, hair drier, toothbrush.</p>
+                    </details>
+                  </div>
+                </div>
+                <div class="spec-row">
+                  <span class="spec-key">Input</span>
+                  <span class="spec-value">Bundled export uses 320 x 320 image input. Custom detectors can use another size if the Core ML model is accepted by Vision.</span>
+                </div>
+                <div class="spec-row">
+                  <span class="spec-key">Output</span>
+                  <span class="spec-value">Vision object detections, or SSD-style multi-array boxes, scores, class ids, and count outputs compatible with the app parser.</span>
+                </div>
+                <div class="spec-row">
+                  <span class="spec-key">Train/drop in</span>
+                  <span class="spec-value">Train a Core ML detector with stable labels, select it in Standard Detection first, then use it for Privacy Guard only if it reliably emits <code>person</code>.</span>
+                </div>
+              </div>
+            </article>
+
+            <article class="model-card accent-pink">
+              <span class="mode-label">Bundled classifier</span>
+              <h3>EmotiEff emotion model</h3>
+              <p>Used by Emotion mode after Apple Vision finds and crops a visible face.</p>
+              <div class="spec-list">
+                <div class="spec-row">
+                  <span class="spec-key">Task</span>
+                  <span class="spec-value">Face emotion classification</span>
+                </div>
+                <div class="spec-row">
+                  <span class="spec-key">Classes</span>
+                  <span class="spec-value">7 bundled labels: <code>Angry</code>, <code>Disgust</code>, <code>Fear</code>, <code>Happy</code>, <code>Neutral</code>, <code>Sad</code>, and <code>Surprise</code>.</span>
+                </div>
+                <div class="spec-row">
+                  <span class="spec-key">Input</span>
+                  <span class="spec-value">Face crop supplied by Apple Vision and scaled to the bundled model's 224 x 224 image input. Train replacement classifiers on face crops, not full camera frames.</span>
+                </div>
+                <div class="spec-row">
+                  <span class="spec-key">Output</span>
+                  <span class="spec-value">Predicted class label and confidences compatible with Vision classification results.</span>
+                </div>
+                <div class="spec-row">
+                  <span class="spec-key">Train/drop in</span>
+                  <span class="spec-value">Export an image classifier as Core ML. Keep labels equivalent to the bundled emotions so colors, history, and summaries stay meaningful.</span>
+                </div>
+              </div>
+            </article>
+
+            <article class="model-card accent-blue">
+              <span class="mode-label">System framework</span>
+              <h3>Apple Vision</h3>
+              <p>Used for face detection, face crops, landmarks, and native focus tracking.</p>
+              <div class="spec-list">
+                <div class="spec-row">
+                  <span class="spec-key">Classes</span>
+                  <span class="spec-value">No trainable app classes. Apple Vision provides system observations instead of a bundled model file.</span>
+                </div>
+                <div class="spec-row">
+                  <span class="spec-key">Drop in</span>
+                  <span class="spec-value">Nothing to replace for Focus mode. The app uses the macOS framework automatically.</span>
+                </div>
+              </div>
+            </article>
+
+            <article class="model-card accent-green">
+              <span class="mode-label">User-selected</span>
+              <h3>Custom Core ML models</h3>
+              <p>Select local model files when experimenting with your own detector or classifier.</p>
+              <div class="spec-list">
+                <div class="spec-row">
+                  <span class="spec-key">Formats</span>
+                  <span class="spec-value"><code>.mlmodel</code>, <code>.mlpackage</code>, or compiled <code>.mlmodelc</code> files and folders selected from your Mac.</span>
+                </div>
+                <div class="spec-row">
+                  <span class="spec-key">Detection</span>
+                  <span class="spec-value">Use Standard Detection to validate labels and boxes. Privacy Guard needs a detector that emits people as <code>person</code>.</span>
+                </div>
+                <div class="spec-row">
+                  <span class="spec-key">Emotion</span>
+                  <span class="spec-value">Use a classifier with labels that match or clearly map to the 7 bundled emotion labels above.</span>
+                </div>
+                <div class="spec-row">
+                  <span class="spec-key">Licensing</span>
+                  <span class="spec-value">Custom models stay local, and you are responsible for permission to use or redistribute any model you select.</span>
+                </div>
+              </div>
+            </article>
+          </div>
+
+          <p class="model-note">For export details, see the <a href="../docs/model-replacement.md">model replacement notes</a>. For bundled notices, see the app's Notices view and repository credits.</p>
+        </div>
+      </section>
+
+      <section id="privacy" class="section privacy-band" aria-labelledby="privacy-title">
+        <div class="section-inner split">
+          <div>
+            <p class="eyebrow">On-device by design</p>
+            <h2 id="privacy-title">Inference stays local</h2>
+          </div>
+          <div class="privacy-copy">
+            <p>Mac Vision Tools uses Core ML, Vision, AVFoundation, and ScreenCaptureKit on your Mac. Camera and screen frames are processed for live detections and are not saved by the app.</p>
+            <p>Permissions are explicit: camera capture needs Camera access, and screen capture needs Screen Recording access in macOS System Settings.</p>
+            <p>The app does not create accounts, run analytics, track users, or send camera or screen content to a server. Custom Core ML models selected by the user stay on the Mac.</p>
+            <p>Privacy Guard starts the macOS screen saver when the configured person threshold is reached. macOS controls whether the screen saver requires a password.</p>
+            <p><a class="text-link" href="privacy/">Read the full privacy policy</a></p>
+          </div>
+        </div>
+      </section>
+
+      <section id="download" class="section download-band" aria-labelledby="download-title">
+        <div class="section-inner download-inner">
+          <p class="eyebrow">Open source macOS utility</p>
+          <h2 id="download-title">Build it, run it, adapt it</h2>
+          <p>The app ships with bundled models and also accepts custom Core ML model files for mode-specific experiments.</p>
+          <div class="download-actions">
+            <a class="button primary" href="https://github.com/christofilojohn/MacVisionTools/releases">Download Release</a>
+            <a class="button secondary light" href="https://github.com/christofilojohn/MacVisionTools">Read on GitHub</a>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

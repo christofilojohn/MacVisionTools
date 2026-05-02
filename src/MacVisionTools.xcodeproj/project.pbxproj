@@ -1,0 +1,398 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		767B1BBF2F168345008388A7 /* DetectionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 767B1BB52F168345008388A7 /* DetectionManager.swift */; };
+		767B1BC02F168345008388A7 /* Views.swift in Sources */ = {isa = PBXBuildFile; fileRef = 767B1BBB2F168345008388A7 /* Views.swift */; };
+		767B1BC12F168345008388A7 /* ControlPanelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 767B1BB42F168345008388A7 /* ControlPanelView.swift */; };
+		767B1BC32F168345008388A7 /* Windows.swift in Sources */ = {isa = PBXBuildFile; fileRef = 767B1BBC2F168345008388A7 /* Windows.swift */; };
+		767B1BC42F168345008388A7 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 767B1BBA2F168345008388A7 /* Models.swift */; };
+		767B1BC52F168345008388A7 /* emotieff.mlmodelc in Resources */ = {isa = PBXBuildFile; fileRef = 767B1BB72F168345008388A7 /* emotieff.mlmodelc */; };
+		767B1BC72F168345008388A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 767B1BB32F168345008388A7 /* Assets.xcassets */; };
+		767B1BCA2F1685CC008388A7 /* MacVisionTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 767B1BC92F1685CC008388A7 /* MacVisionTools.swift */; };
+		767B1BCC2F1689D1008388A7 /* ssd_mobilenet_v2_320x320_raw.mlmodelc in Resources */ = {isa = PBXBuildFile; fileRef = 767B1BCD2F1689D1008388A7 /* ssd_mobilenet_v2_320x320_raw.mlmodelc */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0A1B2C3D4E5F6A7B8C9D0E1F /* MacVisionTools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MacVisionTools.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		767B1BB32F168345008388A7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		767B1BB42F168345008388A7 /* ControlPanelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlPanelView.swift; sourceTree = "<group>"; };
+		767B1BB52F168345008388A7 /* DetectionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetectionManager.swift; sourceTree = "<group>"; };
+		767B1BB62F168345008388A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		767B1BB72F168345008388A7 /* emotieff.mlmodelc */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = emotieff.mlmodelc; sourceTree = "<group>"; };
+		767B1BBA2F168345008388A7 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		767B1BBB2F168345008388A7 /* Views.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views.swift; sourceTree = "<group>"; };
+		767B1BBC2F168345008388A7 /* Windows.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Windows.swift; sourceTree = "<group>"; };
+		767B1BC92F1685CC008388A7 /* MacVisionTools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacVisionTools.swift; sourceTree = "<group>"; };
+		767B1BCB2F1685E8008388A7 /* MacVisionTools.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MacVisionTools.entitlements; sourceTree = "<group>"; };
+		767B1BCD2F1689D1008388A7 /* ssd_mobilenet_v2_320x320_raw.mlmodelc */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = ssd_mobilenet_v2_320x320_raw.mlmodelc; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DA1B2C3D4E5F6A7B8C9D0E1F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0B4D5E6F7A8B9C0D1E2F3A4B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0A1B2C3D4E5F6A7B8C9D0E1F /* MacVisionTools.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		767B1BB92F168345008388A7 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				767B1BB72F168345008388A7 /* emotieff.mlmodelc */,
+				767B1BCD2F1689D1008388A7 /* ssd_mobilenet_v2_320x320_raw.mlmodelc */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		EA2B3C4D5E6F7A8B9C0D1E2F = {
+			isa = PBXGroup;
+			children = (
+				0B4D5E6F7A8B9C0D1E2F3A4B /* Products */,
+				767B1BB32F168345008388A7 /* Assets.xcassets */,
+				767B1BB42F168345008388A7 /* ControlPanelView.swift */,
+				767B1BB52F168345008388A7 /* DetectionManager.swift */,
+				767B1BB62F168345008388A7 /* Info.plist */,
+				767B1BB92F168345008388A7 /* Models */,
+				767B1BBA2F168345008388A7 /* Models.swift */,
+				767B1BBB2F168345008388A7 /* Views.swift */,
+				767B1BBC2F168345008388A7 /* Windows.swift */,
+				767B1BC92F1685CC008388A7 /* MacVisionTools.swift */,
+				767B1BCB2F1685E8008388A7 /* MacVisionTools.entitlements */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1B5E6F7A8B9C0D1E2F3A4B5C /* MacVisionTools */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C6F7A8B9C0D1E2F3A4B5C6D /* Build configuration list for PBXNativeTarget "MacVisionTools" */;
+			buildPhases = (
+				3D7A8B9C0D1E2F3A4B5C6D7E /* Sources */,
+				DA1B2C3D4E5F6A7B8C9D0E1F /* Frameworks */,
+				4E8B9C0D1E2F3A4B5C6D7E8F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MacVisionTools;
+			productName = MacVisionTools;
+			productReference = 0A1B2C3D4E5F6A7B8C9D0E1F /* MacVisionTools.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5F9C0D1E2F3A4B5C6D7E8F9A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					1B5E6F7A8B9C0D1E2F3A4B5C = {
+						CreatedOnToolsVersion = 15.0;
+						LastSwiftMigration = 2620;
+					};
+				};
+			};
+			buildConfigurationList = 6A0D1E2F3A4B5C6D7E8F9A0B /* Build configuration list for PBXProject "MacVisionTools" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EA2B3C4D5E6F7A8B9C0D1E2F;
+			productRefGroup = 0B4D5E6F7A8B9C0D1E2F3A4B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1B5E6F7A8B9C0D1E2F3A4B5C /* MacVisionTools */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4E8B9C0D1E2F3A4B5C6D7E8F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				767B1BC52F168345008388A7 /* emotieff.mlmodelc in Resources */,
+				767B1BCC2F1689D1008388A7 /* ssd_mobilenet_v2_320x320_raw.mlmodelc in Resources */,
+				767B1BC72F168345008388A7 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3D7A8B9C0D1E2F3A4B5C6D7E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				767B1BBF2F168345008388A7 /* DetectionManager.swift in Sources */,
+				767B1BC02F168345008388A7 /* Views.swift in Sources */,
+				767B1BC12F168345008388A7 /* ControlPanelView.swift in Sources */,
+				767B1BC32F168345008388A7 /* Windows.swift in Sources */,
+				767B1BC42F168345008388A7 /* Models.swift in Sources */,
+				767B1BCA2F1685CC008388A7 /* MacVisionTools.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		7B1E2F3A4B5C6D7E8F9A0B1C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8C2F3A4B5C6D7E8F9A0B1C2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		9D3A4B5C6D7E8F9A0B1C2D3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				AUTOMATION_APPLE_EVENTS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = MacVisionTools.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 47L6B5JMAL;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_RESOURCE_ACCESS_AUDIO_INPUT = NO;
+				ENABLE_RESOURCE_ACCESS_CALENDARS = NO;
+				ENABLE_RESOURCE_ACCESS_CAMERA = NO;
+				ENABLE_RESOURCE_ACCESS_CONTACTS = NO;
+				ENABLE_RESOURCE_ACCESS_LOCATION = NO;
+				ENABLE_RESOURCE_ACCESS_PHOTO_LIBRARY = NO;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_LSUIElement = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Mac Vision Tools needs camera access for real-time object detection, emotion recognition, focus tracking, and privacy monitoring.";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.christofilogiannis.MacVisionTools;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				RUNTIME_EXCEPTION_ALLOW_DYLD_ENVIRONMENT_VARIABLES = NO;
+				RUNTIME_EXCEPTION_ALLOW_JIT = NO;
+				RUNTIME_EXCEPTION_ALLOW_UNSIGNED_EXECUTABLE_MEMORY = NO;
+				RUNTIME_EXCEPTION_DEBUGGING_TOOL = NO;
+				RUNTIME_EXCEPTION_DISABLE_EXECUTABLE_PAGE_PROTECTION = NO;
+				RUNTIME_EXCEPTION_DISABLE_LIBRARY_VALIDATION = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		AE4B5C6D7E8F9A0B1C2D3E4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				AUTOMATION_APPLE_EVENTS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = MacVisionTools.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 47L6B5JMAL;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_RESOURCE_ACCESS_AUDIO_INPUT = NO;
+				ENABLE_RESOURCE_ACCESS_CALENDARS = NO;
+				ENABLE_RESOURCE_ACCESS_CAMERA = NO;
+				ENABLE_RESOURCE_ACCESS_CONTACTS = NO;
+				ENABLE_RESOURCE_ACCESS_LOCATION = NO;
+				ENABLE_RESOURCE_ACCESS_PHOTO_LIBRARY = NO;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_LSUIElement = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Mac Vision Tools needs camera access for real-time object detection, emotion recognition, focus tracking, and privacy monitoring.";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.christofilogiannis.MacVisionTools;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				RUNTIME_EXCEPTION_ALLOW_DYLD_ENVIRONMENT_VARIABLES = NO;
+				RUNTIME_EXCEPTION_ALLOW_JIT = NO;
+				RUNTIME_EXCEPTION_ALLOW_UNSIGNED_EXECUTABLE_MEMORY = NO;
+				RUNTIME_EXCEPTION_DEBUGGING_TOOL = NO;
+				RUNTIME_EXCEPTION_DISABLE_EXECUTABLE_PAGE_PROTECTION = NO;
+				RUNTIME_EXCEPTION_DISABLE_LIBRARY_VALIDATION = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2C6F7A8B9C0D1E2F3A4B5C6D /* Build configuration list for PBXNativeTarget "MacVisionTools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D3A4B5C6D7E8F9A0B1C2D3E /* Debug */,
+				AE4B5C6D7E8F9A0B1C2D3E4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6A0D1E2F3A4B5C6D7E8F9A0B /* Build configuration list for PBXProject "MacVisionTools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B1E2F3A4B5C6D7E8F9A0B1C /* Debug */,
+				8C2F3A4B5C6D7E8F9A0B1C2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5F9C0D1E2F3A4B5C6D7E8F9A /* Project object */;
+}
